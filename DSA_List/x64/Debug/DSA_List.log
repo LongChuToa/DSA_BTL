@@ -1,0 +1,298 @@
+﻿  main.cpp
+C:\Users\Hoang\source\repos\DSA_List\util\Point.h(113,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\util\Point.h(114,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\util\Point.h(115,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(71,26): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(71,21): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(74,18): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(74,13): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(91,30): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(91,25): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(95,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(95,26): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(101,15): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(101,15): warning C4305:         with
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(101,15): warning C4305:         [
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(101,15): warning C4305:             T=float
+C:\Users\Hoang\source\repos\DSA_List\DLinkedListDemo.h(101,15): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_List\dataloader.h(55,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+      C:\Users\Hoang\source\repos\DSA_List\dataloader.h(55,27):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_List\main.cpp(75,19):
+          see reference to class template instantiation 'DataLoader<int,int>' being compiled
+          C:\Users\Hoang\source\repos\DSA_List\dataloader.h(33,5):
+          while compiling class template member function 'DataLoader<int,int>::DataLoader(Dataset<DType,LType> *,int,bool,bool,int)'
+          with
+          [
+              DType=int,
+              LType=int
+          ]
+              C:\Users\Hoang\source\repos\DSA_List\main.cpp(75,13):
+              see the first reference to 'DataLoader<int,int>::DataLoader' in 'case_data_wo_label_1'
+  
+C:\Users\Hoang\source\repos\DSA_List\ann\dataset.h(78,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+      C:\Users\Hoang\source\repos\DSA_List\ann\dataset.h(78,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_List\main.cpp(65,29):
+          see reference to class template instantiation 'TensorDataset<int,int>' being compiled
+          C:\Users\Hoang\source\repos\DSA_List\ann\dataset.h(74,5):
+          while compiling class template member function 'TensorDataset<int,int>::TensorDataset(xt::xarray_container<xt::uvector<xt::blas_index_t,std::allocator<T>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<unsigned __int64>,true>,xt::xtensor_expression_tag>,xt::xarray_container<xt::uvector<T,std::allocator<T>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<unsigned __int64>,true>,xt::xtensor_expression_tag>)'
+          with
+          [
+              T=xt::blas_index_t
+          ]
+              C:\Users\Hoang\source\repos\DSA_List\main.cpp(65,31):
+              see the first reference to 'TensorDataset<int,int>::TensorDataset' in 'case_data_wo_label_1'
+  
+C:\Users\Hoang\source\repos\DSA_List\ann\dataset.h(82,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=ptrdiff_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_List\main.cpp(25,17):
+          see reference to function template instantiation 'xt::detail::make_view_impl::view_type xt::view<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,int>(E,int &&)' being compiled
+          with
+          [
+              T=size_t,
+              E=xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &
+          ]
+          C:\Users\Hoang\source\repos\DSA_List\ann\xtensor\xview.hpp(1836,24):
+          see reference to function template instantiation 'xt::detail::make_view_impl::view_type xt::detail::make_view_impl<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,0,_Ty>(E,std::integer_sequence<size_t,0>,_Ty &&)' being compiled
+          with
+          [
+              T=size_t,
+              _Ty=int,
+              E=xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &
+          ]
+          C:\Users\Hoang\source\repos\DSA_List\ann\xtensor\xview.hpp(1813,29):
+          see reference to function template instantiation 'xt::xview<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag> &,int>::xview<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,ptrdiff_t,>(CTA,FSL &&) noexcept' being compiled
+          with
+          [
+              T=size_t,
+              CTA=xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &,
+              FSL=ptrdiff_t
+          ]
+          C:\Users\Hoang\source\repos\DSA_List\ann\xtensor\xview.hpp(882,16):
+          see reference to function template instantiation 'xt::xview<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag> &,int>::xview<xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,_Ty,>(std::true_type,CTA,FSL &&) noexcept' being compiled
+          with
+          [
+              T=size_t,
+              _Ty=ptrdiff_t,
+              CTA=xt::xarray_container<xt::uvector<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>,std::allocator<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag>>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &,
+              FSL=ptrdiff_t
+          ]
+          C:\Users\Hoang\source\repos\DSA_List\ann\xtensor\xview.hpp(896,37):
+          see reference to function template instantiation 'std::tuple<int>::tuple<_Ty,,0>(_This2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=ptrdiff_t,
+              _This2=ptrdiff_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(358,16):
+          see reference to function template instantiation 'std::tuple<int>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=ptrdiff_t,
+              _Tag=std::_Exact_args_t,
+              _This2=ptrdiff_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(312,102):
+          see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=ptrdiff_t,
+              _Other=ptrdiff_t
+          ]
+  
+  DSA_List.vcxproj -> C:\Users\Hoang\source\repos\DSA_List\x64\Debug\DSA_List.exe
+
+Project Performance Summary:
+     3942 ms  C:\Users\Hoang\source\repos\DSA_List\DSA_List.vcxproj   1 calls
+               3942 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  TlogCleanup                                1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ContentFilesProjectOutputGroup             1 calls
+        0 ms  MakeDirsForFxc                             1 calls
+        0 ms  SatelliteDllsProjectOutputGroup            1 calls
+        0 ms  BuiltProjectOutputGroup                    1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  Build                                      1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  IgnoreJavaScriptOutputAssembly             1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ComputeStdModulesCompileInputs             1 calls
+        0 ms  GetReferencedVCProjectsInfo                1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  _CalculatePostXamarinTelemetry             1 calls
+        1 ms  MakeDirsForBscMake                         1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  CustomBuild                                1 calls
+        1 ms  GetReferenceAssemblyPaths                  1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  FixupCLCompileOptions                      1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  IncrementalClean                           1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  CreateRecipeFile                           1 calls
+        1 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        1 ms  SetTelemetryEnvironmentVariables           1 calls
+        2 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        3 ms  PrepareForBuild                            1 calls
+      237 ms  Link                                       1 calls
+     3678 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Message                                   23 calls
+        0 ms  RemoveDuplicates                           2 calls
+        0 ms  FindUnderPath                              5 calls
+        0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  AssignTargetPath                           7 calls
+        0 ms  WriteLinesToFile                           1 calls
+        0 ms  GetOutOfDateItems                          3 calls
+        0 ms  CheckVCToolsetVersion                      1 calls
+        0 ms  SetRidAgnosticValueForProjects             1 calls
+        0 ms  MSBuild                                    1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                    11 calls
+        0 ms  VCMessage                                  1 calls
+        0 ms  CleanupStaleTlogItems                      1 calls
+        1 ms  Touch                                      2 calls
+        1 ms  Delete                                     2 calls
+        1 ms  CallTarget                                 2 calls
+        1 ms  GenerateDesktopDeployRecipe                1 calls
+        2 ms  MakeDir                                   10 calls
+        2 ms  ReadLinesFromFile                          2 calls
+      235 ms  Link                                       1 calls
+     3676 ms  CL                                         1 calls
